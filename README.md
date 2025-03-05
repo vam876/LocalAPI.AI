@@ -1,6 +1,8 @@
 # LocalAPI.AI
 LocalAPI.ai 是一个开源的在线调用系统，专注于提供基于浏览器的 Ollama WEB UI客户端。该系统致力于为用户提供便捷、安全的 AI 服务体验，允许用户无需安装第三方软件即使用可进行智能对话、文本生成、模型管理等功能，并且支持在移动端（手机）进行远程使用。
 
+在线体验： <a href="http://www.LocalAPI.ai">http://www.LocalAPI.ai</a>  
+
 ## 主要功能
 
 • **远程调用**：支持通过 API 远程调用 Ollama 模型，实现云端计算资源的高效利用。
@@ -173,3 +175,10 @@ http {
  
  ![c88172f4065d071145927908aba19e4](https://github.com/user-attachments/assets/7bc596bd-f404-4157-ac2a-6dedf6f1fa54)
 
+## 许可证
+
+本项目采用 [Apache-2.0 许可证](LICENSE)。
+
+## 联系方式
+
+• **Email**：vamjun@Gmail.com
