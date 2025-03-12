@@ -1,28 +1,67 @@
-# LocalAPI.AI
-LocalAPI.ai 是一个开源的在线调用系统，专注于提供基于浏览器的 Ollama WEB UI客户端。该系统致力于为用户提供便捷、安全的 AI 服务体验，允许用户无需安装第三方软件即使用可进行智能对话、文本生成、模型管理等功能，并且支持在移动端（手机）进行远程使用。
 
-在线体验： <a href="http://www.LocalAPI.ai">http://www.LocalAPI.ai</a>  
+# LocalAPI.ai
 
-## 主要功能
+![GitHub stars](https://img.shields.io/github/stars/vam876/LocalAPI.ai?style=social)
+![GitHub forks](https://img.shields.io/github/forks/vam876/LocalAPI.ai?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/vam876/LocalAPI.ai?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/vam876/LocalAPI.ai)
+![GitHub language count](https://img.shields.io/github/languages/count/vam876/LocalAPI.ai)
+![GitHub top language](https://img.shields.io/github/languages/top/vam876/LocalAPI.ai)
+![GitHub last commit](https://img.shields.io/github/last-commit/vam876/LocalAPI.ai?color=red)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Chat-blue?logo=discord&logoColor=white)](https://discord.gg/your-invite-link)
 
-• **远程调用**：支持通过 API 远程调用 Ollama 模型，实现云端计算资源的高效利用。
+---
+[英文描述 / View in English](./README.en.md)
 
-• **兼容移动端**：优化了浏览器的适配，用户可以在手机等移动设备上流畅地访问系统，进行远程模型调用和相关操作。
+---
+**LocalAPI.ai** 是一个基于浏览器的 Ollama 在线管理工具，专为追求极致简洁和高效而设计。**通过一个简单的 HTML 文件**，即可实现强大的 Ollama 客户端功能，支持智能聊天、代码高亮、推理折叠，以及丰富的模型管理和文本生成功能。无论何时何地，只需一个浏览器，即可开启 AI 交互之旅。
 
-• **安全性增强**：提供身份验证和访问控制机制，确保模型调用的安全性。
+## ⭐ 项目亮点
 
-• **多模型支持**：支持多种 Ollama 模型，满足不同场景下的需求。
+- **轻量级设计**：仅需一个 HTML 文件即可部署，无需复杂安装或配置。
+- **功能强大**：支持智能聊天、代码高亮、推理折叠，以及丰富的提示词库。
+- **多模型支持**：兼容多种 Ollama 模型，满足不同场景需求。
+- **跨平台支持**：兼容桌面端和移动端，随时随地访问。
+- **隐私保护**：所有数据本地处理，无需上传，确保数据安全。
 
-• **代码高亮显示**：在交互界面中，代码片段会自动进行语法高亮显示，提升代码可读性和编写效率。
+## 🦙 主要功能
+
+- 📱 **浏览器管理 Ollama**：通过浏览器直接管理 Ollama，无需安装额外软件。
+- 💡 **智能聊天与文本生成**：支持多语言对话和文本生成，提升创作效率。
+- 🎨 **代码高亮与推理折叠**：代码片段自动高亮，推理过程可折叠，提升交互体验。
+- 📚 **丰富的提示词库**：内置提示词库，激发创意，提升 AI 输出质量。
+- 🔒 **隐私与安全**：数据本地处理，不上传云端，确保隐私安全。
+
+## 🚀 快速体验
+
+访问 [LocalAPI.ai](http://www.LocalAPI.ai) 或直接下载 [Ollama_WEB.html](https://github.com/vam876/LocalAPI.ai/releases) 文件，部署WEB服务打开即可开始使用。
+
+##  🛠️ 部署指南
+
+### ⚡⚡⚡极速部署方法
+下载Ollama_WEB.html文件，通过火狐Firefox浏览器打开，直接访问/Ollama_WEB.html
+（注意：需要参考（http://localapi.ai/tutorial） 开启Ollama跨域支持和临时关闭浏览器跨域限制）
+
+| Filename           | MD5                               | SHA1                              |
+|--------------------|-----------------------------------|-----------------------------------|
+| Ollama_WEB.html    | 02a071719ae598b07910c768425b0c41   | 2fc83e2c232ad5ddb19e16530fb41b6f3390fcdc |
 
 
-## 快速部署
+https://github.com/user-attachments/assets/d2f43f4a-3b5b-4e59-9a46-b65d12add90f
 
-### 方式一
-可直接下载集成LocalAPI.ai的Nginx，修改nginx.conf配置文件中的的Ollama API地址既可以一键启动  <a href="https://github.com/vam876/LocalAPI.AI/releases/tag/Bete">https://github.com/vam876/LocalAPI.AI/releases/tag/Bete</a>  
 
-### 方式二 
-将以下文件部署到 web 服务即可快速访问：
+
+### ⚡⚡快速部署方法
+
+#### 方式一：集成 Nginx
+
+可直接下载集成 LocalAPI.ai 的 Nginx，修改 `nginx.conf` 配置文件中的 Ollama API 地址即可一键启动，无法解决跨域。
+
+[下载地址](https://github.com/vam876/LocalAPI.AI/releases/tag/Bete)
+
+#### 方式二：Web 服务部署
+
+将以下文件部署到 Web 服务即可快速访问：
 
 ```
 │  index.html
@@ -32,9 +71,15 @@ LocalAPI.ai 是一个开源的在线调用系统，专注于提供基于浏览�
         index-Bu-ZNHg4.css
 ```
 
-### 使用 Nginx 反向代理（推荐）
 
-利用 Nginx 的反向代理功能可以无需解决跨域限制，快速启动服务。以下是一个示例配置：
+
+1. 下载 [Ollama_WEB.html](https://github.com/vam876/LocalAPI.ai/releases) 文件。
+2. 使用支持 HTML 的浏览器（目前测试仅支持Firefox火狐浏览器）打开文件。
+3. 或将文件部署到 Web 服务器，访问 `/Ollama_WEB.html`。
+
+### ⚡高级部署
+
+使用 Nginx 反向代理，快速启动服务，无需设置解决跨域限制。示例配置如下：
 
 ```nginx
 events {
@@ -90,95 +135,32 @@ http {
     }
 }
 ```
+---
 
-请将 `your_domain_or_ip` 替换为你的实际域名或IP地址。
+## 功能展示
 
-## 常规方式：配置与使用
+### PC 端展示
 
-### 第一步：开启 Ollama 跨域支持
+![PC端展示](https://github.com/user-attachments/assets/f9af989f-3d4e-44b7-9647-a50d1379ccef)
 
-#### Windows
+### 移动端展示
 
-• **快速启动方式（临时变量）**：
-  1. 通过右下角 "Ollama 图标" 或 "进程管理" 退出 Ollama 进程。
-  2. 使用快捷键 `Windows + R` 打开 "运行" 对话框，或直接打开命令提示符界面。
-  3. 执行 `set OLLAMA_ORIGINS=*`。
-  4. 执行 `ollama serve`。
-  5. 成功启动后，继续进行 "第二步骤：临时关闭浏览器跨域限制"。
+![移动端展示](https://github.com/user-attachments/assets/7bc596bd-f404-4157-ac2a-6dedf6f1fa54)
 
-• **常规配置方式**：
-  1. 使用快捷键 `Windows + R` 打开 "运行" 对话框，输入 `sysdm.cpl`。
-  2. 在 "系统属性" 中，点击 "环境变量"。
-  3. 在 "用户变量" 中新建变量：
-     ◦ 变量名：`OLLAMA_ORIGINS`
-     ◦ 变量值：`*`
-  4. 重启 Ollama 服务或计算机以生效。
-  5. 如需远程访问 Ollama，设置 `OLLAMA_HOST` 环境变量为 `0.0.0.0`。
+---
+## 开发环境
 
-#### macOS
+Vite + React + TypeScript
 
-• **命令行设置（临时生效）**：
-  1. 退出 Ollama 应用。
-  2. 打开终端，输入以下命令：
-     ```bash
-     export OLLAMA_ORIGINS="*"
-     ```
-  3. 启动 Ollama 服务：
-     ```bash
-     ollama serve
-     ```
-  4. 成功启动后，继续进行 "第二步骤：临时关闭浏览器跨域限制"。
+## 贡献与支持
 
-• **永久生效设置**：
-  1. 编辑启动脚本（如 `.zshrc` 或 `.bash_profile`），添加上述 `export` 命令。
-  2. 重新加载配置文件：
-     ```bash
-     source ~/.zshrc
-     ```
-  3. 重启 Ollama 应用以使配置生效。
+欢迎参与项目贡献！无论是功能改进、文档优化，还是提交 Issue，我们都期待您的参与。
 
-#### Linux
-
-• **命令行设置（临时生效）**：
-  1. 退出 Ollama 应用。
-  2. 打开终端，输入以下命令：
-     ```bash
-     export OLLAMA_ORIGINS="*"
-     ```
-  3. 启动 Ollama 服务：
-     ```bash
-     ollama serve
-     ```
-  4. 成功启动后，继续进行 "第二步骤：临时关闭浏览器跨域限制"。
-
-• **永久生效设置**：
-  1. 如果 Ollama 作为 `systemd` 服务运行，编辑服务配置文件：
-     ```bash
-     sudo systemctl edit ollama.service
-     ```
-  2. 在 `[Service]` 部分添加：
-     ```ini
-     Environment="OLLAMA_ORIGINS=*"
-
-     
-     ```
-  3. 保存并退出。
-  4. 重新加载 `systemd` 配置并重启 Ollama 服务：
-     ```bash
-     sudo systemctl daemon-reload
-
- ## 功能展示
- PC端展示
- ![微信截图_20250305182428](https://github.com/user-attachments/assets/f9af989f-3d4e-44b7-9647-a50d1379ccef)
- 
-移动端展示
- 
- ![c88172f4065d071145927908aba19e4](https://github.com/user-attachments/assets/7bc596bd-f404-4157-ac2a-6dedf6f1fa54)
+- **GitHub 仓库**：[https://github.com/vam876/LocalAPI.ai](https://github.com/vam876/LocalAPI.ai)
+- **联系方式**：vamjun@Gmail.com
 
 ## 许可证
 
 本项目采用 [Apache-2.0 许可证](LICENSE)。
 
-## 联系方式
 
-• **Email**：vamjun@Gmail.com
