@@ -1,6 +1,4 @@
----
-
-# LocalAPI.AI
+# LocalAPI.ai
 
 ![GitHub stars](https://img.shields.io/github/stars/vam876/LocalAPI.ai?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/vam876/LocalAPI.ai?style=social)
@@ -11,95 +9,110 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/vam876/LocalAPI.ai?color=red)
 
 ---
-[中文](./README.zh.md)  
+[中文](./README.zh.md)
+
 ---
 
 # LocalAPI.AI 🤖
 
 ## Tool Overview 🌟  
-**LocalAPI.AI** is a dedicated local AI management tool designed specifically for **Ollama**, while also being compatible with other mainstream local AI deployment platforms such as vLLM, LM Studio, and llama.cpp.  
-It integrates features such as intelligent conversation, text generation, and multimodal image recognition, and provides comprehensive model management capabilities, including model copying, deletion, pulling, updating, creation, and quantization. Additionally, it supports flexible parameter settings to meet the diverse needs of users.
+**LocalAPI.AI** is a dedicated local AI management tool specifically designed for **Ollama**, and it is also compatible with a variety of mainstream local AI deployment platforms such as vLLM, LM Studio, and llama.cpp.  
+It integrates intelligent conversation, text generation, multimodal image recognition, and other functions, and provides comprehensive model management support, including advanced functions such as model copying, deletion, pulling, updating, creation, and model quantization, as well as flexible parameter settings to meet the needs of different users.
 
 ---
 
-## Key Features 🚀
+## Features 🚀
 
-## Detailed Explanation of Core Features  
+• **Designed for Ollama and Compatible with Multiple Models**  
+  Deeply integrated with the core functions of Ollama, it is also compatible with a variety of local AI deployment platforms such as vLLM, LM Studio, llama.cpp, Ollama, Mozilla-Llamafile, Jan Al, Cortex API, Local-LLM, LiteLLM, GPT4All, etc., to meet the diverse needs of different users.
 
-### 1. **Support for macOS/Windows Desktop Clients**  
-• Offers dedicated desktop clients for macOS and Windows with a clean and user-friendly interface.  
-• Supports one-click activation of an authentication middleware for AI services, eliminating the need for complex configurations and avoiding cross-origin issues. Users can directly access AI services through a browser.  
+• **Quick Setup of Local Model Service Authentication Middleware**  
+  Users can simply download the macOS, Windows, or Linux client to set up the authentication middleware for local model services with one click. There is no need for complex configuration, and the model service can be quickly started and secured.
 
-### 2. **Intelligent Conversation Interface**  
-• Provides a natural language interaction interface, allowing users to converse with AI models using everyday language.  
-• Offers real-time feedback, intelligent responses, and suggestions, while also supporting chat history saving and prompt control.  
+• **Comprehensive Model Management Functions**  
+  It provides advanced functions such as model copying, deletion, pulling, updating, creation, and model quantization, and supports flexible parameter settings to meet the diverse needs of users ranging from individual developers to enterprise users.
 
-### 3. **Advanced Text Generation**  
-• Leverages powerful language generation models to create articles, code, poetry, and other types of content.  
-• Provides real-time performance metrics, including loading time and processing speed, to help users optimize their experience.  
+• **Deeply Optimized Static Files**  
+  We have deeply optimized the built static files, which are ultimately merged into a single HTML file. With just one HTML file, powerful local AI API interaction capabilities can be achieved without complex deployment and ready-to-use.
 
-### 4. **Model Management System**  
-• Supports multi-model management, including copying, deleting, pulling, updating, creating, and quantizing models.  
-• Offers flexible parameter settings to meet the needs of individual developers and enterprise users.  
+• **Responsive Design, Mobile Compatible**  
+  It supports access from a variety of devices and is compatible with mobile devices, allowing users to start AI interaction experiences anytime, anywhere through their smartphones or tablets.
 
-### 5. **Additional Features to Discover**  
-• **Privacy and Security**: All data processing is performed locally, and offline usage is supported to ensure data privacy.  
-• **Reliable Deployment**: Provides a secure deployment method with a reserved Nginx authentication interface to further enhance data security.  
-• **Community Support**: Join the LocalAPI.AI community to access the latest feature updates and technical support.  
+• **Security and Privacy Protection**  
+  All data processing is completed locally and will not be uploaded to the cloud or third-party servers, ensuring data security. After the initial load, users can use it offline without an internet connection and have full control over their data.
+
+• **Online Usage**  
+  There is no need to install any programs. By visiting [LocalAPI.ai](http://www.localapi.ai), users can access the full range of functions. By simply configuring the browser and enabling cross-origin support, a smooth online AI interaction experience can be achieved in the browser.
+
+---
+
+## Main Functions 🚀
+
+• **Intelligent Conversation**  
+  Interact with AI models using natural language to obtain intelligent answers and suggestions. Messages provide instant feedback, support saving chat history in the browser, and offer highly flexible parameter and prompt control.
+
+• **Text Generation**  
+  It supports the generation of various types of text content to improve creative efficiency and has already supported some multimodal models for image content recognition. It provides instant performance metric feedback, intuitively displaying loading time, processing time, evaluation time, token generation speed, etc.
+
+• **Model Management**  
+  It provides comprehensive model management functions, including advanced functions such as model copying, deletion, pulling, updating, creation, and model quantization, and supports flexible parameter settings to meet diverse needs.
+
+• **Prompt Library**  
+  It offers a rich prompt library that users can freely import or export personal AI prompts. It supports online editing and one-click application to chat conversations, helping users to inspire creativity and improve the quality of AI output.
 
 ---
 
 ## Use Cases 🎯
 
 • **AI Enthusiasts**  
-  Offers a simple and intuitive interaction experience, suitable for users interested in exploring and experimenting with AI.  
+  Provides an easy-to-use interactive experience suitable for users interested in AI.
 
 • **Students and Beginners**  
-  Easy to use, ideal for assisting learning and daily Q&A, helping to improve learning efficiency.  
+  Easy to get started, suitable for assisting learning and daily Q&A.
 
 • **Individual Developers**  
-  Suitable for creative validation and small project development, providing flexible parameter settings and robust feature support.  
+  Suitable for creative validation and small project development.
 
-• **Enterprise Applications**  
-  Although primarily designed for individual users, its multi-model support and high performance also make it suitable for enterprise-level services, ensuring data security and privacy protection.  
+• **Enterprise-Level Applications**  
+  Although mainly aimed at individual users, its multi-model support and high performance also make it suitable for enterprise-level service applications.
 
 ---
 
 ## 🌐 Online Usage  
-No installation is required. Visit [LocalAPI.AI](http://www.localapi.ai) to access all features.  
-Users only need to configure their browser and enable cross-origin support to enjoy a seamless online AI interaction experience.
+There is no need to install any programs. By visiting [LocalAPI.ai](http://www.localapi.ai), users can access the full range of functions.  
+Users only need to simply configure the browser and enable cross-origin support to achieve a smooth online AI interaction experience in the browser.
 
 ---
 
 ## 📥 Client Download  
-The tool supports three major mainstream operating systems: macOS 🍎, Windows 💻, and Linux 🐧.  
-Users can start the desktop client and run the service in a browser without resolving cross-origin issues, enabling efficient local AI interaction.
+The tool supports the three major mainstream operating systems: macOS 🍎, Windows 💻, and Linux 🐧.  
+Users can start the service through the desktop application and run the service in the browser without solving cross-origin issues, achieving efficient local AI interaction.
 
 ---
 
 ## 🛠️ Deployment Guide  
 
 ### ⚡ Quick Deployment Method  
-Download the **Ollama_WEB.html** file and open it in the Firefox browser. Directly access `/Ollama_WEB.html`.  
-**Note**: Refer to [http://localapi.ai/tutorial](http://localapi.ai/tutorial) to enable Ollama cross-origin support and temporarily disable Firefox's cross-origin restrictions.
+Download the **LocalAPI_WEB.html** file and open it with Firefox browser to directly access `/LocalAPI_WEB.html`.  
+**Note**: You need to refer to [http://localapi.ai/tutorial](http://localapi.ai/tutorial) to enable Ollama cross-origin support and temporarily disable the cross-origin restrictions of the Firefox browser.
 
 ---
 
 ### ⚡ Web Service Deployment Method  
-Deploy the **Ollama_WEB.html** file to a web server for quick access:  
+Deploy the **LocalAPI_WEB.html** file to a web service for quick access:  
 
-1. Download the [Ollama_WEB.html](https://github.com/vam876/LocalAPI.ai/releases) file.  
-2. Deploy the file to a web server and access `/Ollama_WEB.html`.
+1. Download the [LocalAPI_WEB.html](https://github.com/vam876/LocalAPI.ai/releases) file.  
+2. Or deploy the file to a web server and access `/LocalAPI_WEB.html`.
 
 ---
 
-### 📸 **Feature Demonstrations**
+## 📸 **Function Demonstration**
 
-#### 1. **Support for macOS/Windows Desktop Clients**  
-Supports one-click activation of a secure authentication middleware for AI services, allowing browser-based usage without resolving cross-origin issues.  
+#### 1. **Support for macOS/Windows Desktop**  
+Supports one-click activation of a secure authentication middleware for AI services, allowing usage through the browser without solving cross-origin issues.  
 ![image](https://github.com/user-attachments/assets/245669ca-41b9-41d1-977a-1b0e31cf0465)
 
-*Figure 1: macOS/Windows/Linux Desktop Client, Supporting One-Click Activation of Authentication Middleware*
+*Figure 1: macOS/Windows/Linux desktop, supporting one-click activation of authentication middleware*
 
 ---
 
@@ -107,44 +120,48 @@ Supports one-click activation of a secure authentication middleware for AI servi
 Engage in natural conversations with AI models to obtain instant answers and insights.  
 ![image](https://github.com/user-attachments/assets/906114a6-6b85-4f51-89c6-f5dc98bb4919)
 
-*Figure 2: Intelligent Conversation Interface, Supporting Natural Language Interaction and Real-Time Feedback*
+*Figure 2: Intelligent conversation interface, supporting natural language interaction and instant feedback*
 
 ---
 
 #### 3. **Advanced Text Generation and Image Recognition**    
+
 ![image](https://github.com/user-attachments/assets/6eea22c3-469e-4262-9433-d8f24e692528)
 ![image](https://github.com/user-attachments/assets/1c98a3e6-5ac5-4227-99e1-4f52c5e1684c)
-
-*Figure 3: Advanced Text Generation Feature, Supporting Various Content Creation Types*
+*Figures 3-4: Advanced text generation functions, supporting creation of various content types*
 
 ---
 
 #### 4. **Model Management System**  
 Easily manage and configure multiple AI models to meet different needs.  
-![image](https://github.com/user-attachments/assets/ea417711-1ae5-4fb0-bff5-dc223dda5a53)
+![image](https://github.com/user-attachments/assets/6c2ab630-dcbd-4630-8630-3b73993b5c04)
 
-*Figure 4: Model Management Interface, Supporting Model Copying, Deleting, Updating, and More*
+*Figure 5: Model management interface, supporting operations such as model copying, deletion, and updating*
 
 ---
 
-#### 5. **Additional Features to Discover**  
-Reliable deployment method with a reserved Nginx authentication interface and custom HTTP headers to ensure complete privacy and security.  
-![image](https://github.com/user-attachments/assets/6c2ab630-dcbd-4630-8630-3b73993b5c04)
+#### 5. **More Features to Discover**  
+Reliable deployment methods, with reserved Nginx authentication interfaces and custom HTTP request headers to ensure complete privacy and security.  
+![image](https://github.com/user-attachments/assets/28df4993-0e5c-496f-8589-b2b5ea03953f)
 
-*Figure 5: Deployment Interface, Supporting Nginx Authentication Interface and Custom HTTP Headers for Data Privacy and Security*
+
+*Figure 6: Deployment interface, supporting Nginx authentication interfaces and custom HTTP request headers to ensure data privacy and security*
 
 ---
 
 ## Summary  
 
-**LocalAPI.AI** is a powerful, secure, and user-friendly local AI management tool.  
-It not only provides deep integration with Ollama but also supports multiple mainstream local AI deployment platforms such as vLLM, LM Studio, and llama.cpp. Through one-click activation of authentication middleware, comprehensive model management features, and highly flexible parameter settings, it provides users with an efficient, convenient, and secure experience.  
+**LocalAPI.AI** is a powerful, secure, and easy-to-use local AI management tool.  
+It not only provides deep integration for Ollama but is also compatible with a variety of mainstream local AI deployment platforms. By enabling one-click setup of authentication middleware, comprehensive model management functions, and highly flexible parameter settings, it offers users an efficient, convenient, and secure experience.  
 
-Whether you're an AI enthusiast, student, developer, or enterprise user, you can quickly get started and fully utilize its powerful features to achieve secure and efficient local AI interaction!
+Whether you are an AI enthusiast, student, developer, or enterprise user, you can quickly get started with LocalAPI.AI and fully utilize its powerful functions to achieve secure and efficient local AI interaction!
 
 ---
 
-**Welcome to Join the LocalAPI.AI Community!**  
+**Welcome to use LocalAPI.AI**  
 
 • **GitHub Repository**: [https://github.com/vam876/LocalAPI.ai](https://github.com/vam876/LocalAPI.ai)  
-• **Contact Information**: Vamjun8@gmail.com
+
+• **Contact**: Vamjun8@gmail.com
+
+• **Official Website**: LocalAPI.ai
