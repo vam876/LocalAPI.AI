@@ -162,10 +162,16 @@
 无论是 AI 爱好者、学生、开发者还是企业用户，都能通过 LocalAPI.AI 快速上手并充分利用其强大的功能，实现本地 AI 交互的安全与高效！  
 
 ---
+## 关于源代码
+
+我们的 **LocalAPI_WEB.html** 是使用 **Vite + React + TypeScript** 构建的静态文件代码，而 **LocalAPI.ai Desktop** 是用 **Python** 开发的。目前，代码的大部分内容由 AI 编写，我们正在对其进行优化。优化完成后，我们会将全部代码开源。您现在可以使用代码编辑器对 **LocalAPI_WEB.html** 进行编辑或调整。
+
+---
 
 **欢迎使用 LocalAPI.AI**  
 
 • **GitHub 仓库**: [https://github.com/vam876/LocalAPI.ai](https://github.com/vam876/LocalAPI.ai)  
 
 • **联系方式**: Vamjun8@gmail.com
+
 • **官方网站**: LocalAPI.ai
