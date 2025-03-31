@@ -157,6 +157,11 @@ It not only provides deep integration for Ollama but is also compatible with a v
 Whether you are an AI enthusiast, student, developer, or enterprise user, you can quickly get started with LocalAPI.AI and fully utilize its powerful functions to achieve secure and efficient local AI interaction!
 
 ---
+## About the Source Code
+
+Our **LocalAPI_WEB.html** is built with **Vite + React + TypeScript** as a static file, while **LocalAPI.ai Desktop** is developed using **Python**. Currently, most of the code is written by AI, and we are in the process of optimizing it. Once the optimization is complete, we will open-source the entire codebase. You can now edit or adjust **LocalAPI_WEB.html** using your preferred code editor.
+
+---
 
 **Welcome to use LocalAPI.AI**  
 
