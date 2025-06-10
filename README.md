@@ -159,7 +159,7 @@ Whether you are an AI enthusiast, student, developer, or enterprise user, you ca
 ---
 ## About the Source Code
 
-Our **LocalAPI_WEB.html** is built with **Vite + React + TypeScript** as a static file, while **LocalAPI.ai Desktop** is developed using **Python**. Currently, most of the code is written by AI, and we are in the process of optimizing it. Once the optimization is complete, we will open-source the entire codebase. You can now edit or adjust **LocalAPI_WEB.html** using your preferred code editor.
+Our **LocalAPI_WEB.html** is built with **Vite + React + TypeScript** as a static file, while **LocalAPI.ai Desktop** is developed using **Ruts**. Currently, most of the code is written by AI, and we are in the process of optimizing it. Once the optimization is complete, we will open-source the entire codebase. You can now edit or adjust **LocalAPI_WEB.html** using your preferred code editor.
 
 ---
 
