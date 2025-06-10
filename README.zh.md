@@ -164,7 +164,7 @@
 ---
 ## 关于源代码
 
-我们的 **LocalAPI_WEB.html** 是使用 **Vite + React + TypeScript** 构建的静态文件代码，而 **LocalAPI.ai Desktop** 是用 **Python** 开发的。目前，代码的大部分内容由 AI 编写，我们正在对其进行优化。优化完成后，我们会将全部代码开源。您现在可以使用代码编辑器对 **LocalAPI_WEB.html** 进行编辑或调整。
+我们的 **LocalAPI_WEB.html** 是使用 **Vite + React + TypeScript** 构建的静态文件代码，而 **LocalAPI.ai Desktop** 是用 **Rust** 开发的。
 
 ---
 
