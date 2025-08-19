@@ -1,7 +1,7 @@
 [package]
-name = "LocalAPIDesktop"
-version = "0.3.0"
-description = "LocalAPIDesktop"
+name = "YangtuoAIDesktop"
+version = "0.4.0"
+description = "YangtuoAIDesktop"
 authors = ["you"]
 edition = "2021"
 
