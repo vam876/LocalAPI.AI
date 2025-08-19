@@ -14,8 +14,8 @@
     "windows": [
       {
         "title": "羊驼AI助手 - 本地AI调试工具 Beta-0.4",
-        "width": 1100,
-        "height": 800
+        "width": 1200,
+        "height": 900
       }
     ],
     "security": {
@@ -34,4 +34,5 @@
     ]
   }
 }
+
 
