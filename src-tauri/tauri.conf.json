@@ -1,11 +1,11 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "LocalAPI_Desktop",
+  "productName": "Yangtuo_Desktop",
   "version": "0.3.0",
-  "identifier": "com.localapiai.app",
+  "identifier": "com.yangtuoai.app",
   "build": {
     "beforeDevCommand": "npm run dev",
-    "devUrl": "http://www.localapi.ai",
+    "devUrl": "http://yangtuo.localapi.ai",
     "beforeBuildCommand": "npm run build",
     "frontendDist": "../dist"
   },
@@ -13,7 +13,7 @@
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "LocalAPi.AI Desktop 本地AI交互平台 - Beta-0.3",
+        "title": "羊驼AI助手 - 本地AI调试工具 Beta-0.4",
         "width": 1100,
         "height": 800
       }
@@ -34,3 +34,4 @@
     ]
   }
 }
+
